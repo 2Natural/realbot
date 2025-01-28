@@ -1,0 +1,10 @@
+# Configure Telegram
+config['telegram']['token'] = 'YOUR_BOT_TOKEN'
+config['telegram']['channel_id'] = '@your_alerts_channel'
+
+# Configure wallet (use encrypted storage)
+config['wallet']['address'] = '0xYourWalletAddress'
+config['wallet']['private_key'] = 'encrypted_private_key'
+
+# Set security parameters
+config['security']['min_liquidity'] = 50000  # USD
